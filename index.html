@@ -95,7 +95,7 @@
 												<h3>Data Visualization</h3>
 												<ul>
 													<li>Matplotlib, Seaborn and Plotly.</li>
-													<li>Power BI, Looker Studio and Metabase.</li>
+													<li>Power BI, Streamlit, Looker Studio and Metabase.</li>
 												</ul>
 											</div>
 										</article>
@@ -104,8 +104,8 @@
 											<div class="content">
 												<h3>Software Engineering</h3>
 												<li>Git, GitHub, GitLab and Virtual Environment.</li>
-												<li>Streamlit, Flask, Python API's and Telegram Bot.</li>
-												<li>Streamlit Cloud, Render, Heroku, Neon.tech and AWS.</li>
+												<li>Flask, Python API's and Telegram Bot.</li>
+												<li>Render Cloud, Heroku, Neon.tech and AWS.</li>
 												
 											</div>
 										</article>
@@ -117,7 +117,7 @@
 									<header class="major">
 										<h1>Experience</h1>
 									</header>		
-										<h2 id="content" >5 Complete Data Science Projects </h2>
+										<h2 id="content" >6 Complete Data Science Projects </h2>
 										<p align="justify"> Solving business problems that are close to real problems at various companies, using Data Science skills and publicly available data. 
 											These solutions possess all main steps a Data Science solution should have: understanding the business problem, collecting and cleaning data, 
 											feature engineering, going through exploratory data analysis, data preparation, feature selection, machine learning modeling, model evaluation, as well as translating model performance to financial and business results. Finally, deploying the final product by using a Cloud Computing tool.
@@ -138,10 +138,38 @@
 									</header>
 									<div class="posts">
 										<article>
+											<a class="image"><img src="images/airbnb.jpg" /></a>
+											<h3> Predicting Next Booking Destinations for Airbnb Users</h3>
+											<p align="justify">In this project I used Python, Flask, Streamlit and Classification Algorithms to make predictions of the five most likely
+												countries for an Airbnb USA user to make their next booking. The company provided data from over 200 thousand users and required predictions
+												for another 61 thousand users, on which there were 12 possible destinations outcomes. The final product is a Streamlit App that displays a 
+												table of these 61 thousand users with their respective predictions, as well as graphical analysis of the predictions by age, gender and overall analysis. 
+												In addition to that, a Flask App was built for when new data comes in, as we can get new predictions with a click of a button, so it can be later retrieved
+												by the Streamlit App, because both Streamlit and Flask applications are connected by the same PostgreSQL Database.
+							
+											<h4>Tools and techniques used:</h4>
+											<ul>
+												<li> Python, Pandas, Matplotlib, Seaborn and Sklearn.</li>
+												<li> SQL and PostgresSQL.</li>												
+												<li> Jupyter Notebook and VSCode.</li>
+												<li> Flask and Render Cloud.</li>
+												<li> Streamlit.</li>
+												<li> Git and GitHub.</li>												
+												<li> Exploratory Data Analysis (EDA).</li>
+												<li> Techniques for Feature Selection.</li>
+												<li> Classification Algorithms (Logistic Regression, Decision Tree, Random Forest, ExtraTrees, AdaBoost, XGBoost and LGBM Classifiers).</li>
+												<li> Cross-Validation Methods, Bayesian Optimization with Optuna and Performance Metrics (NDCG at rank K).</li>
+											</ul>
+											<ul class="actions">
+												<li><a href="https://github.com/brunodifranco/project-airbnb-classification" class="button">View Full project</a>
+												</li>
+											</ul>
+										</article>
+										<article>
 											<a class="image"><img src="images/star-jeans.jpg" /></a>
 											<h3> ETL Building for an E-commerce Jeans Company</h3>
 											<p align="justify">In this data engineering project I used Python, Web Scraping and PostgresSQL to create an ETL process for Star Jeans,
-												a fictitious company. Star Jeans' owners have just recently started the company, and for now, their plan is to sell male jeans in the USA through an E-commerce. 
+												 a fictitious company. Star Jeans' owners have just recently started the company, and for now, their plan is to sell male jeans in the USA through an E-commerce. 
 												 However, this market already has strong competitors, such as H&M for instance. In addition to that, the owners aren't familiar with this segment in particular. 
 												 Therefore, in order to better understand how this market works they hired a Data Science/Engineering to gather information regarding H&M. 
 												 The built solution is an ETL that extracts data from H&M website, cleans it, and saves it to a PostgreSQL database on a weekly basis. 
