@@ -50,8 +50,13 @@
 										<h1>About me</h1>
 									</header>
 		
-										<p align="justify">I graduated in Economic Sciences at Universidade Federal do Rio Grande do Sul (UFRGS) in July 2022. Recently, I worked as a Data Scientist at Data Science Brigade, a Data Science consulting company. </p>
+										<p align="justify">I graduated in Economics from Universidade Federal do Rio Grande do Sul (UFRGS) in June 2022, and I am currently
+											seeking new opportunities in the field of Data. Most recently, I worked as a Data Scientist at a data consulting company.
+											In this role, I was involved in Data Science projects for several companies, performing tasks ranging from data cleaning
+											and exploratory analysis to the implementation of Machine Learning models. These efforts aimed to deliver high-
+											quality results in the projects. I also have some personal projects, which you can find at the "Data Science Projects" section.									</p>
 									</section>
+
 							<!-- Skills -->
 								<section>
 									<header class="major">
@@ -63,8 +68,7 @@
 											<div class="content">
 												<h3>Programming Languages and Databases</h3>
 												<ul>
-													<li>Python for data analysis.</li>
-													<li>Webscraping with Python.</li>
+													<li>Python.</li>
 													<li>SQL for data extraction.</li>
 													<li>PostgreSQL and SQLite Databases.</li>
 
@@ -77,13 +81,13 @@
 												<h3>Statistics and Machine Learning</h3>
 												<ul>
 													<li>Descriptive Statistics.</li>
-													<li>Time Series Analysis (ARIMA and GARCH).</li>
-													<li>Regression, Classification, Clustering and Learning to Rank Algorithms.</li>
+													<li>Regression, Classification, Clustering and Time Series Algorithms (including Neural Networks).</li>
 													<li>Algorithms Performance Metrics.</li>
 													<li>Techniques for Feature Selection, Validation and Hyperparameter Optimization.</li>
-													<li>Dimensionality Reduction with PCA, t-SNE and UMAP.</li>
-													<li>Machine Learning packages (Sklearn and Scipy).</li>
+													<li>Dimensionality Reduction with PCA, t-SNE, UMAP and Autoencoders</li>
+													<li>Machine Learning packages (Scikit-learn, Scipy, Tensorflow, Keras).</li>
 													<li>Data Analysis packages (Pandas).</li>
+													<li>Big Data tools and packages (PySpark, Dask).</li>
 												</ul>
 											</div>
 										</article>
@@ -101,14 +105,31 @@
 											<span class="icon solid fa-terminal"></span>
 											<div class="content">
 												<h3>Software Engineering</h3>
-												<li>Git, GitHub, GitLab and Virtual Environment.</li>
+												<li>Web Scraping techniques.</li>
+												<li>Git, GitHub, GitLab.</li>
+												<li>Linux Environment.</li>
 												<li>Flask, Python API's and Telegram Bot.</li>
-												<li>Render Cloud, Heroku, Neon.tech and AWS.</li>
+												<li>AWS and Azure basic cloud tools.</li>
 												
 											</div>
 										</article>
 									</div>
 								</section>
+
+								<!-- Certifications -->
+								<section>
+									<header class="main">
+										<h2>Data Science Certifications</h2>
+									</header>
+		
+										<p align="justify">
+											<ul>
+												<li><a href="https://coursera.org/share/9c2dcaa6bf88f4c2a82e0cd8512837d4">IBM Data Science - Coursera</a>.</li>
+												<li><a href="https://credentials.edx.org/credentials/02e0e4de89884dcc872bcddb70a24b44">Computer Science for Artificial Intelligence - HarvardX</a>.</li>
+												<li><a href="https://coursera.org/share/47ee58160d0d6f042c4d032f0518ce5e">Google Data Analytics - Coursera</a>.</li>
+											</ul>
+										 </p>
+									</section>
 
 
 							<!-- Projects -->
@@ -118,56 +139,26 @@
 									</header>
 									<div class="posts">
 										<article>
-											<a class="image"><img src="images/airbnb.jpg" /></a>
-											<h3> Predicting Next Booking Destinations for Airbnb Users</h3>
-											<p align="justify">In this project I used Python, Flask, Streamlit and Classification Algorithms to make predictions of the five most likely
-												countries for an Airbnb USA user to make their next booking. The company provided data from over 200 thousand users and required predictions
-												for another 61 thousand users, on which there were 12 possible destinations outcomes. The final product is a Streamlit App that displays a 
-												table of these 61 thousand users with their respective predictions, as well as graphical analysis of the predictions by age, gender and overall analysis. 
-												In addition to that, a Flask App was built for when new data comes in, as we can get new predictions with a click of a button, so it can be later retrieved
-												by the Streamlit App, because both Streamlit and Flask applications are connected by the same PostgreSQL Database.
-							
+											<a class="image"><img src="images/rossmann.jpg" alt="" /></a>
+											<h3> Creating a Bot that Predicts Rossmann Future Sales</h3>
+											<p align="justify">In this project I used Python, Flask and Regression Algorithms to predict Rossmann sales, 
+												a drug store chain, six weeks in advance. Reason being Rossmann CEO needs to determine the best resource
+												allocation for each store renovation. The final solution is a Telegram Bot that returns a sales prediction
+												of any given available store number, with the possibility of being accessed from anywhere. <p>
 											<h4>Tools and techniques used:</h4>
 											<ul>
 												<li> Python, Pandas, Matplotlib, Seaborn and Sklearn.</li>
-												<li> SQL and PostgresSQL.</li>												
 												<li> Jupyter Notebook and VSCode.</li>
-												<li> Flask and Render Cloud.</li>
-												<li> Streamlit.</li>
-												<li> Git and GitHub.</li>												
-												<li> Exploratory Data Analysis (EDA).</li>
+												<li> Flask and Python API's.</li>
+												<li> Render Cloud and Telegram Bot.</li>
+												<li> Git and Github.</li>		
+												<li> Exploratory Data Analysis (EDA).</li>										
 												<li> Techniques for Feature Selection.</li>
-												<li> Classification Algorithms (Logistic Regression, Decision Tree, Random Forest, ExtraTrees, AdaBoost, XGBoost and LGBM Classifiers).</li>
-												<li> Cross-Validation Methods, Bayesian Optimization with Optuna and Performance Metrics (NDCG at rank K).</li>
+												<li> Regression Algorithms (Linear and Lasso Regression; Random Forest, XGBoost and LGBM Regressors).</li>
+												<li> Cross-Validation Methods, Hyperparameter Optimization and Algorithms Performance Metrics (RMSE, MAE, MAPE, R2).</li>
 											</ul>
 											<ul class="actions">
-												<li><a href="https://github.com/brunodifranco/project-airbnb-classification" class="button">View Full project</a>
-												</li>
-											</ul>
-										</article>
-										<article>
-											<a class="image"><img src="images/star-jeans.jpg" /></a>
-											<h3> ETL Building for an E-commerce Jeans Company</h3>
-											<p align="justify">In this data engineering project I used Python, Web Scraping and PostgresSQL to create an ETL process for Star Jeans,
-												 a fictitious company. Star Jeans' owners have just recently started the company, and for now, their plan is to sell male jeans in the USA through an E-commerce. 
-												 However, this market already has strong competitors, such as H&M for instance. In addition to that, the owners aren't familiar with this segment in particular. 
-												 Therefore, in order to better understand how this market works they hired a Data Science/Engineering to gather information regarding H&M. 
-												 The built solution is an ETL that extracts data from H&M website, cleans it, and saves it to a PostgreSQL database on a weekly basis. 
-												 Then, it adds and displays the data with filters in a Streamlit App, where it can be accessed from anywhere by Star Jeans' owners.
-								
-											<h4>Tools and techniques used:</h4>
-											<ul>
-												<li> Python, Pandas and Beautiful Soup.</li>
-												<li> SQL and PostgresSQL.</li>												
-												<li> Jupyter Notebook and VSCode.</li>
-												<li> Web Scraping.</li>
-												<li> ETL Process and Windows Task Scheduler.</li>
-												<li> Streamlit.</li>
-												<li> Git and GitHub.</li>												
-							             	</ul>
-											<ul class="actions">
-												<li><a href="https://github.com/brunodifranco/project-star-jeans-data-engineering" class="button">View Full project</a>
-												</li>
+												<li><a href="https://github.com/brunodifranco/project-rossmann-sales" class="button">View Full project</a></li>
 											</ul>
 										</article>
 										<article>
@@ -226,29 +217,7 @@
 												</li>
 											</ul>
 										</article>
-										<article>
-											<a class="image"><img src="images/rossmann.jpg" alt="" /></a>
-											<h3> Creating a Bot that Predicts Rossmann Future Sales</h3>
-											<p align="justify">In this project I used Python, Flask and Regression Algorithms to predict Rossmann sales, 
-												a drug store chain, six weeks in advance. Reason being Rossmann CEO needs to determine the best resource
-												allocation for each store renovation. The final solution is a Telegram Bot that returns a sales prediction
-												of any given available store number, with the possibility of being accessed from anywhere. <p>
-											<h4>Tools and techniques used:</h4>
-											<ul>
-												<li> Python, Pandas, Matplotlib, Seaborn and Sklearn.</li>
-												<li> Jupyter Notebook and VSCode.</li>
-												<li> Flask and Python API's.</li>
-												<li> Render Cloud and Telegram Bot.</li>
-												<li> Git and Github.</li>		
-												<li> Exploratory Data Analysis (EDA).</li>										
-												<li> Techniques for Feature Selection.</li>
-												<li> Regression Algorithms (Linear and Lasso Regression; Random Forest, XGBoost and LGBM Regressors).</li>
-												<li> Cross-Validation Methods, Hyperparameter Optimization and Algorithms Performance Metrics (RMSE, MAE, MAPE, R2).</li>
-											</ul>
-											<ul class="actions">
-												<li><a href="https://github.com/brunodifranco/project-rossmann-sales" class="button">View Full project</a></li>
-											</ul>
-										</article>
+
 										<article>
 											<a class="image"><img src="images/house-rocket.jpg" alt="" /></a>
 											<h3> Business Solution for a Real Estate Company</h3>
@@ -270,7 +239,59 @@
 												</li>
 											</ul>
 										</article>
-
+										<article>
+											<a class="image"><img src="images/airbnb.jpg" /></a>
+											<h3> Predicting Next Booking Destinations for Airbnb Users</h3>
+											<p align="justify">In this project I used Python, Flask, Streamlit and Classification Algorithms to make predictions of the five most likely
+												countries for an Airbnb USA user to make their next booking. The company provided data from over 200 thousand users and required predictions
+												for another 61 thousand users, on which there were 12 possible destinations outcomes. The final product is a Streamlit App that displays a 
+												table of these 61 thousand users with their respective predictions, as well as graphical analysis of the predictions by age, gender and overall analysis. 
+												In addition to that, a Flask App was built for when new data comes in, as we can get new predictions with a click of a button, so it can be later retrieved
+												by the Streamlit App, because both Streamlit and Flask applications are connected by the same PostgreSQL Database.
+							
+											<h4>Tools and techniques used:</h4>
+											<ul>
+												<li> Python, Pandas, Matplotlib, Seaborn and Sklearn.</li>
+												<li> SQL and PostgresSQL.</li>												
+												<li> Jupyter Notebook and VSCode.</li>
+												<li> Flask and Render Cloud.</li>
+												<li> Streamlit.</li>
+												<li> Git and GitHub.</li>												
+												<li> Exploratory Data Analysis (EDA).</li>
+												<li> Techniques for Feature Selection.</li>
+												<li> Classification Algorithms (Logistic Regression, Decision Tree, Random Forest, ExtraTrees, AdaBoost, XGBoost and LGBM Classifiers).</li>
+												<li> Cross-Validation Methods, Bayesian Optimization with Optuna and Performance Metrics (NDCG at rank K).</li>
+											</ul>
+											<ul class="actions">
+												<li><a href="https://github.com/brunodifranco/project-airbnb-classification" class="button">View Full project</a>
+												</li>
+											</ul>
+										</article>
+										<article>
+											<a class="image"><img src="images/star-jeans.jpg" /></a>
+											<h3> ETL Building for an E-commerce Jeans Company</h3>
+											<p align="justify">In this data engineering project I used Python, Web Scraping and PostgresSQL to create an ETL process for Star Jeans,
+												 a fictitious company. Star Jeans' owners have just recently started the company, and for now, their plan is to sell male jeans in the USA through an E-commerce. 
+												 However, this market already has strong competitors, such as H&M for instance. In addition to that, the owners aren't familiar with this segment in particular. 
+												 Therefore, in order to better understand how this market works they hired a Data Science/Engineering to gather information regarding H&M. 
+												 The built solution is an ETL that extracts data from H&M website, cleans it, and saves it to a PostgreSQL database on a weekly basis. 
+												 Then, it adds and displays the data with filters in a Streamlit App, where it can be accessed from anywhere by Star Jeans' owners.
+								
+											<h4>Tools and techniques used:</h4>
+											<ul>
+												<li> Python, Pandas and Beautiful Soup.</li>
+												<li> SQL and PostgresSQL.</li>												
+												<li> Jupyter Notebook and VSCode.</li>
+												<li> Web Scraping.</li>
+												<li> ETL Process and Windows Task Scheduler.</li>
+												<li> Streamlit.</li>
+												<li> Git and GitHub.</li>												
+							             	</ul>
+											<ul class="actions">
+												<li><a href="https://github.com/brunodifranco/project-star-jeans-data-engineering" class="button">View Full project</a>
+												</li>
+											</ul>
+										</article>
 										</div>									
 								</section>
 
